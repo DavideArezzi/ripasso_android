@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ripasso_android.databinding.ActivitySecondBinding
+import com.example.ripasso_android.fragment.HomeFragment
 
 class SecondActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySecondBinding
@@ -13,7 +14,7 @@ class SecondActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.secondo.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, HomeFragment::class.java)
             startActivity(intent)
             finish()
         }
