@@ -12,10 +12,6 @@ private lateinit var binding: ActivityMainBinding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.primo.setOnClickListener{
-            val intent = Intent(this, SecondActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+
     }
 }

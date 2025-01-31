@@ -7,10 +7,10 @@
     tools:context=".fragment.ShopFragment">
 
     <Button
-        android:id="@+id/primno"
+        android:id="@+id/primo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="vail al mainactivity"
+        android:text="vai al secondactivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
